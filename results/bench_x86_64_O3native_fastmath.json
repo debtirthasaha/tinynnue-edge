@@ -1,0 +1,14 @@
+{
+  "steps": 20500, "reps": 20, "chunk": 64,
+  "avg_active_features": 22.57, "avg_features_changed_per_move": 3.12,
+  "latency_per_eval": {
+    "fp32_full": {"median_ns": 1114.7, "p95_ns": 1438.5, "chunks": 6400},
+    "fp32_incremental": {"median_ns": 191.9, "p95_ns": 263.5, "chunks": 6400},
+    "int8_full": {"median_ns": 1415.3, "p95_ns": 1812.9, "chunks": 6400},
+    "int8_incremental": {"median_ns": 471.8, "p95_ns": 532.8, "chunks": 6400},
+    "int8_acc_refresh_only": {"median_ns": 1009.2, "p95_ns": 1313.9, "chunks": 6400},
+    "int8_acc_update_only": {"median_ns": 71.3, "p95_ns": 90.9, "chunks": 6400},
+    "int8_layers_2_3_only": {"median_ns": 408.8, "p95_ns": 515.6, "chunks": 6400}
+  },
+  "sink": 161675869
+}

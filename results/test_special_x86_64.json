@@ -1,0 +1,1 @@
+{"steps": 42, "int_acc_incremental_vs_full_mismatches": 0, "int_eval_incremental_vs_full_mismatches": 0, "int_eval_vs_python_mismatches": 0, "fp32_vs_python_over_0.05cp": 0, "fp32_vs_python_max_abs_cp": 0.000275, "fp32_incremental_drift_max_abs_cp": 0.000277, "max_abs_acc1": 431, "pass": true}
